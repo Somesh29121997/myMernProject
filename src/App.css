@@ -1,0 +1,107 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-weight: 600;
+}
+
+nav {
+  background-color: rgb(55, 0, 100);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  margin: 2rem;
+  text-decoration: none;
+  padding: 15px;
+}
+
+a:hover {
+  color: rgb(0, 68, 255);
+  background-color: white;
+  align-items: center;
+}
+
+.container {
+  background-color: rgb(252, 222, 213);
+  padding: 4vmax 8vmax;
+  min-height: 100vh;
+  width: 70%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > h1{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+input,
+textarea,
+button {
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1.1rem;
+  font-family: helvetica;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+}
+.task>div{
+  width: 100%;
+}
+.task>button{
+  border-radius: 100%;
+  background-color: crimson;
+  height: 30px;
+  width: 30px;
+  font-size: 1.6rem;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+}
+span{
+  color: rgb(161 161 161);
+}
+.task>button:hover{
+  background-color: red ;
+}
+
+.footer {
+  background-color: black;
+  height: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
